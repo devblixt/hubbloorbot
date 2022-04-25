@@ -1,0 +1,19 @@
+{
+  "name": "hubblebuckadder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm teststart",
+    "start": "node app.js"
+  },
+  "author": "Devdatt N",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "unb-api": "^1.2.3"
+  }
+}
