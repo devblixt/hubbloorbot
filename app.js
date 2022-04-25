@@ -63,7 +63,7 @@ guild.members.fetch({query : arr[0],limit : 100})
 .then(function(collection){
 const m=collection.find(m => m.user.discriminator === arr[1]);
 userid=m.user.id;
-client.editUserBalance(guildID, userID, { cash: +1, bank: 0 });
+unbclient.editUserBalance(guildID, userID, { cash: +1, bank: 0 });
 })
 .catch(console.error)
 }
